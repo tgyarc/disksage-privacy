@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="tr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>DiskSage – Destek / Support</title>
+<meta name="description" content="DiskSage destek sayfası. Support for DiskSage, the on-device AI disk cleaner for Mac.">
+<style>
+  :root {
+    --bg: #ffffff; --text: #1d1d1f; --muted: #6e6e73; --accent: #6654e6; --line: #e5e5ea; --card: #f5f5f7;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root { --bg: #1c1c1e; --text: #f5f5f7; --muted: #a1a1a6; --accent: #8d86ff; --line: #38383a; --card: #2c2c2e; }
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0; background: var(--bg); color: var(--text);
+    font: 17px/1.6 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  }
+  main { max-width: 760px; margin: 0 auto; padding: 48px 20px 80px; }
+  header { margin-bottom: 32px; }
+  h1 { font-size: 2rem; line-height: 1.2; margin: 0 0 8px; }
+  h2 { font-size: 1.5rem; margin: 48px 0 8px; padding-top: 24px; border-top: 1px solid var(--line); }
+  h3 { font-size: 1.1rem; margin: 28px 0 4px; }
+  p, li { color: var(--text); }
+  .muted { color: var(--muted); }
+  nav { display: flex; gap: 12px; flex-wrap: wrap; }
+  nav a, a { color: var(--accent); }
+  .summary { background: var(--card); border-radius: 14px; padding: 16px 20px; margin: 16px 0; }
+  .summary strong { display: block; margin-bottom: 4px; }
+</style>
+</head>
+<body>
+<main>
+  <header>
+    <h1>DiskSage – Destek</h1>
+    <p class="muted">Support</p>
+    <nav><a href="#tr">Türkçe</a> <a href="#en">English</a> <a href="../">Gizlilik Politikası / Privacy Policy</a></nav>
+  </header>
+
+  <section id="tr" lang="tr">
+    <div class="summary">
+      <strong>Yardım mı lazım?</strong>
+      Sorunu ya da önerinizi <a href="https://github.com/tgyarc/disksage-privacy/issues/new">GitHub'da yeni bir konu açarak</a> iletin. Bunun için ücretsiz bir GitHub hesabı gerekir. Konular herkese açıktır; kişisel dosya adlarını ya da başka kişisel bilgileri yazmayın.
+    </div>
+
+    <h3>DiskSage neden bir klasör seçmemi istiyor?</h3>
+    <p>macOS, App Store uygulamalarının yalnızca sizin seçtiğiniz klasörleri okumasına izin verir. DiskSage ana klasörünüzü seçtiğinizde onu tarar, başka hiçbir yere bakmaz. Erişimi <em>Ayarlar → Genel → Erişimi Kaldır</em> ile istediğiniz zaman kaldırabilirsiniz.</p>
+
+    <h3>Temizlenen dosyalar nereye gidiyor?</h3>
+    <p>Hepsi Çöp Sepeti'ne taşınır; DiskSage hiçbir şeyi kalıcı olarak silmez. Son temizliği DiskSage'deki <em>Geri Al</em> düğmesiyle tek tıkla geri alabilirsiniz. Alanın geri gelmesi için Finder'da Çöp Sepeti'ni boşaltmanız gerekir.</p>
+
+    <h3>Yapay zekâ özellikleri neden görünmüyor?</h3>
+    <p>Yapay zekâ özeti ve "Diskinize Sorun", Apple Intelligence ile cihazınızda çalışır. Bunun için Apple çipli bir Mac, macOS 26 ve <em>Sistem Ayarları → Apple Intelligence ve Siri</em> bölümünden açılmış Apple Intelligence gerekir. Bunlar yoksa DiskSage yerleşik kurallarıyla çalışmaya devam eder.</p>
+
+    <h3>Satın alımımı nasıl geri yüklerim?</h3>
+    <p><em>Ayarlar → Pro → Satın Alımları Geri Yükle</em> düğmesini kullanın. Pro, aynı Apple Hesabıyla giriş yapılmış tüm Mac'lerinizde geçerlidir.</p>
+
+    <h3>Para iadesi</h3>
+    <p>App Store satın alımlarının iadesini Apple yönetir: <a href="https://reportaproblem.apple.com">reportaproblem.apple.com</a></p>
+
+    <h3>Hesabımı nasıl silerim?</h3>
+    <p>Hesap isteğe bağlıdır. Apple ile giriş yaptıysanız <em>Ayarlar → Hesap → Hesabı Sil</em> ile silebilirsiniz.</p>
+  </section>
+
+  <section id="en" lang="en">
+    <h2>DiskSage – Support</h2>
+    <div class="summary">
+      <strong>Need help?</strong>
+      Report a problem or suggest an idea by <a href="https://github.com/tgyarc/disksage-privacy/issues/new">opening a new issue on GitHub</a>. This needs a free GitHub account. Issues are public, so please don't include personal file names or other personal information.
+    </div>
+
+    <h3>Why does DiskSage ask me to choose a folder?</h3>
+    <p>macOS lets App Store apps read only the folders you choose. When you choose your Home folder, DiskSage scans it and nothing else. You can revoke access at any time in <em>Settings → General → Revoke Access</em>.</p>
+
+    <h3>Where do cleaned files go?</h3>
+    <p>Everything is moved to the Trash; DiskSage never deletes anything permanently. You can undo the last cleanup with one click with <em>Undo</em> in DiskSage. Empty the Trash in Finder to get the space back.</p>
+
+    <h3>Why don't I see the AI features?</h3>
+    <p>The AI summary and "Ask Your Disk" run on your Mac with Apple Intelligence. They need a Mac with Apple silicon, macOS 26, and Apple Intelligence turned on in <em>System Settings → Apple Intelligence &amp; Siri</em>. Without them, DiskSage keeps working with its built-in rules.</p>
+
+    <h3>How do I restore my purchase?</h3>
+    <p>Use <em>Settings → Pro → Restore Purchases</em>. Pro works on every Mac signed in with the same Apple Account.</p>
+
+    <h3>Refunds</h3>
+    <p>Apple handles refunds for App Store purchases: <a href="https://reportaproblem.apple.com">reportaproblem.apple.com</a></p>
+
+    <h3>How do I delete my account?</h3>
+    <p>An account is optional. If you signed in with Apple, delete it in <em>Settings → Account → Delete Account</em>.</p>
+  </section>
+</main>
+</body>
+</html>

@@ -1,5 +1,5 @@
-# DiskSage Privacy Policy
+# Gigabye Privacy Policy and Support
 
-Published at https://tgyarc.github.io/disksage-privacy/
+Published at https://tgyarc.github.io/gigabye/ (privacy policy) and https://tgyarc.github.io/gigabye/support/ (support).
 
-The source lives in the DiskSage project under `docs/privacy/index.html`.
+The sources live in the Gigabye project under `docs/privacy/index.html` and `docs/support/index.html`.
